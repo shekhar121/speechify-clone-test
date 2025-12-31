@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Speechify Clone Test - Text to Speech | Listen to Any Text</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header-container">
+                <div class="logo-section">
+                    <img src="./src/assets/logo.png" alt="Speechify Logo" />
+                    <span class="logo-text">Speechify Clone Test</span>
+                </div>
+                <nav class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">About</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn btn-ghost">Log In</button>
+                    <button class="btn btn-primary">Try Free</button>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content -->
+        <main class="main-container">
+            <section class="hero">
+                <div class="hero-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                    </svg>
+                    <span>Text to Speech</span> — Listen to any text, anywhere
+                </div>
+                <p style="font-size: 2rem; font-weight: bold;">Hover on the elements to Turn reading into listening</p>
+                <p>Experience the power of natural-sounding voices. Select any text below and let Speechify read it aloud for you.</p>
+            </section>
+            <div id="root"></div>
+            <div id="content-1">
+                <article>
+
+
+                    <section>
+                        <div>
+                            <p id="paragraph-lorem-ipsum" style="font-size: 20px">
+                                Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap
+                                into electronic typesetting, remaining essentially
+                                unchanged. It was popularised in the 1960s with the
+                                release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of
+                                Lorem Ipsum
+                            </p>
+                            <blockquote>
+                                This is a blockquote element on the page.
+                            </blockquote>
+                            <h2>A very interesting subtopic</h2>
+                            <p>
+                                The standard chunk of Lorem Ipsum used since the
+                                1500s is reproduced below for those interested.
+                                Sections 1.10.32 and 1.10.33 from "de Finibus
+                                Bonorum et Malorum" by Cicero are also reproduced in
+                                their exact original form, accompanied by English
+                                versions from the 1914 translation by H. Rackham.
+                                <a href="https://www.lipsum.com/"
+                                    >Link to lipsum.com</a
+                                >
+                                Various versions have evolved over the years,
+                                sometimes by accident, sometimes on purpose
+                                (injected humour and the like).
+                            </p>
+                            <h2 id="model-dependency">Functors in a sample page</h2>
+                            <p>
+                                In mathematics, specifically category theory, a
+                                functor is a mapping between categories. Functors
+                                were first considered in algebraic topology, where
+                                algebraic objects are associated to topological
+                                spaces, and maps between these algebraic objects are
+                                associated to continuous maps between spaces.
+                            </p>
+                            <blockquote>
+                                A <strong>functor</strong> is a
+                                <a
+                                    href="https://en.wikipedia.org/wiki/Design_pattern"
+                                    >design pattern</a
+                                >
+                                inspired by
+                                <a href="https://en.wikipedia.org/wiki/Functor"
+                                    >the definition from category theory</a
+                                >, that allows for a
+                                <a href="https://en.wikipedia.org/wiki/Generic_type"
+                                    >generic type</a
+                                >
+                                to apply a
+                                <a
+                                    href="https://en.wikipedia.org/wiki/Function_(mathematics)"
+                                    >function</a
+                                >
+                                inside without changing the structure of the generic
+                                type.
+                            </blockquote>
+                            <p>
+                                Javascript uses functors in the form of
+                                Symbol.iterator. Most built-in objects have a
+                                <code>[Symbol.iterator]</code> key which describes
+                                how to iterate over the given object. You can learn
+                                more about it on the incredible
+                                <a href="https://javascript.info/iterable"
+                                    >javascript.info</a
+                                >. This concept allows us to do iteration and by
+                                extension, mapping (<code>.map()</code>,
+                                <code>.filter()</code>, etc) on many different
+                                objects from arrays to generators. The function we
+                                provide to <code>map()</code> will be run on all the
+                                iterable's values while maintaining the container's
+                                generic type.
+                            </p>
+                        </div>
+                    </section>
+                </article>
+            </div>
+             <!-- Footer -->
+             <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="./src/assets/logo.png" alt="Speechify" />
+                        <span>Speechify Clone Test</span>
+                    </div>
+                    <nav class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Help Center</a>
+                    </nav>
+                </div>
+            </footer>
+        </main>
+        <script src="./src/index.tsx"></script>
+    </body>
+</html>
